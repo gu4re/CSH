@@ -1,4 +1,4 @@
-/* Librerias */
+/* Libraries */
 #include <stdio.h>
 #include "parser.h"
 #include <string.h>
