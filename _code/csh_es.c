@@ -71,7 +71,6 @@ int cd(const char *path, tline* line){
 		fprintf(stderr,"%s: Error. %s\n",(char *)line->redirect_input,strerror(errno));
 		return 1;
 	}
-
 	if (line->redirect_error == NULL)
 		err = STDERR_FILENO;
 	else if ((err = open(line->redirect_error, O_WRONLY | O_CREAT, 0666)) < 0){
