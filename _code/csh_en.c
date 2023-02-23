@@ -54,7 +54,7 @@ int main(void);
  *		      por directorios  	  		  */
 int cd(const char *path, tline* line){
 
-	/* Variables locales del subprograma cd */
+	// Local variables
 	pid_t pid;
         int status, input, output, err;
         char s[100];
