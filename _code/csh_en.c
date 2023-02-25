@@ -1,5 +1,6 @@
 /* Libraries */
 #include <stdio.h>
+// Notice that parser.h is located in "_libraries" folder
 #include "../_libraries/parser.h"
 #include <string.h>
 #include <errno.h>
