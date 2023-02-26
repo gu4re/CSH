@@ -1,4 +1,4 @@
 # CSH
-### A simplify version of bash using C!
+### A simplified version of bash using C!
 
 <---! Still under working --->
