@@ -1,6 +1,6 @@
 Notices for CSH
 
-This product includes software developed by [PoweerR02]().
+This product includes software developed by [PoweerR02](https://www.instagram.com/davidgc127/).
 
 Copyright 2023 Gu4re
 
@@ -16,4 +16,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-Special thanks to [ShuXiang Gao](https://github.com/vitaminac) for their ideas in their distributed version of minishell in C.
+Special mention to [ShuXiang Gao](https://github.com/vitaminac) for their ideas in their distributed version of a bash-shell in C.
