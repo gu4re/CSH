@@ -22,7 +22,7 @@ git pull
 
 ## COMPILE & RUN <img src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png" alt="code-icon" width="40" height="40" align="left"/>
 
-<p align="justify">It is important to note that when compiling the code using gcc or any other compatible C compiler, the appropriate library for your system architecture must be included. This library can be found in the _libraries directory of this repo (either "libparser_x86.a" or "libparser_x64.a"). Note that there is currently **no library available for ARM architecture.**</p>
+<p align="justify">It is important to note that when compiling the code using gcc or any other compatible C compiler, the appropriate library for your system architecture must be included. This library can be found in the _libraries directory of this repo (either "libparser_x86.a" or "libparser_x64.a"). Note that there is currently <b>no library available for ARM architecture.</b></p>
 <p align="justify">Example with gcc compiler:</p>
 
 ```bash
