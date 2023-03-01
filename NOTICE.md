@@ -1,6 +1,6 @@
 Notices for CSH
 
-This product includes software developed by [PoweerR02](https://www.instagram.com/davidgc127/).
+This product includes software developed by [PoweerR02](https://github.com/PoweeR02).
 
 Copyright 2023 Gu4re
 
