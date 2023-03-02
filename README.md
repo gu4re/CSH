@@ -1,5 +1,5 @@
 # CSH v1.0.0 <img src="http://icons.iconarchive.com/icons/blackvariant/button-ui-system-apps/1024/Terminal-icon.png" alt="terminal-icon" width="55" height="55" align="left"/>
-#### *A simplified version of bash using C!*
+#### *A simplified version of bash using C!* <br>*If you need a graphical tutorial for installation, click [here!](https://i.imgur.com/Ifnnse5.mp4)*
 
 <p align="justify">The purpose of this project is to provide a basic understanding of how a shell works, how processes and subprocesses comunicate with the OS System and how commands are executed by a shell. Some commands are still emulating the behaviour of UNIX commands such as <b><i>cd</b></i> and <i><b>umask</b></i>. Probably they will be changed in a future release.</p>
 
@@ -23,8 +23,8 @@ git pull
 ## COMPILE & RUN <img src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png" alt="code-icon" width="40" height="40" align="left"/>
 
 <p align="justify">It is important to note that when compiling the code using gcc or any other compatible C compiler, the appropriate library for your system architecture must be included. This library can be found in the _libraries directory of this repo (either "libparser_x86.a" or "libparser_x64.a"). Note that there is currently <b>no library available for ARM architecture.</b></p>
-<img src="https://imgur.com/5lNegb4.png" align="right" alt="download-zip-button" width="280" height="230"/>
-<p align="justify">Example with gcc compiler using csh_en.c file in a x64 architecture. Make sure you execute this command at main-branch level i.e as side gif-photo:</p>
+<img src="https://imgur.com/LVn28Hu.png" align="right" alt="download-zip-button" width="360" height="140"/>
+<p align="justify">Example with gcc compiler using csh_en.c file in a x64 architecture. Make sure you execute this command at main-branch level i.e as the side photo:</p>
 
 ```bash
 cd "your-folder-destination"
@@ -34,7 +34,7 @@ gcc "_code/csh_en.c" "_libraries/libparser_x64.a" -o "name-of-executable" -Wall 
 <p align="justify">After compiling the code, gcc will create an executable file in the current directory. To run and test CSH, just use in terminal the run "./" expression:</p>
 
 ```bash
-./csh_en 
+./csh_en
 # Comment: Following the sample above
 ````
 
