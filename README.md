@@ -22,8 +22,8 @@ git pull
 
 ## COMPILE & RUN <img src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png" alt="code-icon" width="40" height="40" align="left"/>
 
+<img src="https://imgur.com/LVn28Hu.png" align="right" alt="download-zip-button" width="370" height="176"/>
 <p align="justify">It is important to note that when compiling the code using gcc or any other compatible C compiler, the appropriate library for your system architecture must be included. This library can be found in the _libraries directory of this repo (either "libparser_x86.a" or "libparser_x64.a"). Note that there is currently <b>no library available for ARM architecture.</b></p>
-<img src="https://imgur.com/LVn28Hu.png" align="right" alt="download-zip-button" width="360" height="140"/>
 <p align="justify">Example with gcc compiler using csh_en.c file in a x64 architecture. Make sure you execute this command at main-branch level i.e as the side photo:</p>
 
 ```bash
@@ -32,6 +32,7 @@ gcc "_code/csh_en.c" "_libraries/libparser_x64.a" -o "name-of-executable" -Wall 
 # Comment: "name-of-executable" can be anything, usually used the same name as the source file e.g "csh_en"
 ````
 <p align="justify">After compiling the code, gcc will create an executable file in the current directory. To run and test CSH, just use in terminal the run "./" expression:</p>
+
 
 ```bash
 ./csh_en
