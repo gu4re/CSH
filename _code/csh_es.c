@@ -973,7 +973,7 @@ void prompt(void){
 
 	if (print_prompt){
 		usleep(2500);	
-		printf("%s","msh> ");
+		printf("%s","csh> ");
 		usleep(2500);
 	}
 }
@@ -984,7 +984,7 @@ void handler_msh(void){
 
 	signal(SIGINT, (void *)handler_msh);
 			
-	printf("\nmsh> ");
+	printf("\csh> ");
 	fflush(stdout);
 	print_prompt = false;
 }
