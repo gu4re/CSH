@@ -984,7 +984,7 @@ void handler_msh(void){
 
 	signal(SIGINT, (void *)handler_msh);
 			
-	printf("\csh> ");
+	printf("\ncsh> ");
 	fflush(stdout);
 	print_prompt = false;
 }
